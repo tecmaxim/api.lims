@@ -1,0 +1,46 @@
+{
+    "name": "yiisoft/yii2-app-advanced",
+    "description": "Yii 2 Advanced Application Template",
+    "keywords": ["yii2", "framework", "advanced", "application template"],
+    "homepage": "http://www.yiiframework.com/",
+    "type": "project",
+    "license": "BSD-3-Clause",
+    "support": {
+        "issues": "https://github.com/yiisoft/yii2/issues?state=open",
+        "forum": "http://www.yiiframework.com/forum/",
+        "wiki": "http://www.yiiframework.com/wiki/",
+        "irc": "irc://irc.freenode.net/yii",
+        "source": "https://github.com/yiisoft/yii2"
+    },
+      
+    "require": {
+        "php": ">=5.4.0",
+        "yiisoft/yii2": "2.0.3",
+        "yiisoft/yii2-bootstrap": "*",
+        "phpoffice/phpexcel": "~1.8",
+        "miloschuman/yii2-highcharts-widget": "*",
+	"phpmailer/phpmailer": "dev-master",
+        "kartik-v/yii2-widgets": "*",
+        "kartik-v/yii2-krajee-base": "1.7.6",
+        "Kendo": "@dev",
+        "cinghie/yii2-tcpdf": "dev-master",
+        "vilochane/yii2-barcode-generator": "dev-master"
+    },
+    
+    "require-dev": {
+        "yiisoft/yii2-codeception": "*",
+        "yiisoft/yii2-debug": "*",
+        "yiisoft/yii2-gii": "*",
+        "yiisoft/yii2-faker": "*",
+        "yiisoft/yii2-jui": "~2.0.0"
+    },
+    "config": {
+        "process-timeout": 1800
+    },
+    "extra": {
+        "asset-installer-paths": {
+            "npm-asset-library": "vendor/npm",
+            "bower-asset-library": "vendor/bower"
+        }
+    }
+}

@@ -1,0 +1,9 @@
+﻿vendor/
+.svn/
+nbproject/
+frontend/web/assets/
+frontend/web/uploads/
+frontend/runtime/
+frontend/web/external_source.js
+frontend/runtime/app.log
+

@@ -1,0 +1,2 @@
+ALTER TABLE `project` ADD COLUMN `UpdateAt` DATE NOT NULL AFTER `IsSent`;
+ALTER TABLE `project` ADD COLUMN `StepUpdateAt` DATE NOT NULL AFTER `UpdateAt`;
